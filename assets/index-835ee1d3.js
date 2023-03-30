@@ -300,7 +300,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   grid-template-areas:
     'name email'
     'message message';
-  gap: 15px;
+  gap: 10px;
   justify-content: center;
 `,_i=ge.div`
   width: 100%;
@@ -321,6 +321,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 
   input,
   textarea {
+    width: 100%;
     padding: 10px;
     border: none;
     outline: none;
